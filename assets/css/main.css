@@ -71,6 +71,10 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+.space-evenly{
+	display: flex;
+    justify-content: space-evenly;
+}
 
 /* Basic */
 
@@ -329,6 +333,16 @@ input, select, textarea {
 
 	hr {
 		border-bottom-color: rgba(255, 255, 255, 0.35);
+	}
+	.small-icon{
+		border-radius: 50%;
+		height: 200px;
+	}
+	.small-sc {
+		height: 12em;
+	}
+	.small-lang {
+		height: 8em;
 	}
 
 /* Row */
@@ -2215,7 +2229,9 @@ input, select, textarea {
 	}
 
 /* Icon */
-
+	.icon.major.no-border{
+		border: none;
+	}
 	.icon {
 		text-decoration: none;
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -3001,7 +3017,7 @@ input, select, textarea {
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
-			border-radius: 100%;
+			border-radius: 50%;
 			border: solid 1px;
 		}
 
